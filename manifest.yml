@@ -9,3 +9,6 @@ applications:
 
   # refer spec buildpack
   buildpack: java_buildpack
+
+  # path
+  path: target/shop-1.0.BUILD-SNAPSHOT.jar
