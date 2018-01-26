@@ -1,0 +1,8 @@
+---
+applications:
+-
+  # application name
+  name: Shop
+
+  # random route, avoid can not request a route
+  random-route: true
