@@ -15,4 +15,4 @@ deploy:
             A="
   api: https://api.run.pivotal.io
   organization: morenbuou3
-  space: staging
+  space: development
