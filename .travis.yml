@@ -4,7 +4,8 @@ jdk:
 deploy:
   provider: cloudfoundry
   username: 369558172@qq.com
-  password: secure: "ey9l5jrvsqy2nPT1BuMq/EKqsCbyfRq2YKoj2VY25vEozAfj35juxQ0N3OgQNL1751VfJ9FdNYTgNA8qPKRMlEXD
+  password:
+    secure: "ey9l5jrvsqy2nPT1BuMq/EKqsCbyfRq2YKoj2VY25vEozAfj35juxQ0N3OgQNL1751VfJ9FdNYTgNA8qPKRMlEXD
             +eGeFUcaEwcG2pMkJt6iu4YQAm/ivbERkC+5uQWvyy08L6YkRgbeVZCD7iY5MWV6KDpo1bKL3MLn7DNYqgL5d6lF0/xrn68sswA
             y06+6o1ZJsqkCaSpdz3xx2PLD9qj8ymSe+gYHY5ZDZ2OtZSOrKZEBLu6k/+smcE8ns1ejMkgeP+zF8S0Xc254f7qnmL6SnIK/sM
             tfKwrLRsqdmUORMZb70aFR5RdGgKKOQ1NlRppol33tVnE/cdC6QLPoVImJteNKH3MFL4IGRQVkduo3kyW+30Pu44W+qsciI6jqS
