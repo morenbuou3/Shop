@@ -11,4 +11,4 @@ applications:
   buildpack: java_buildpack
 
   # path
-  path: target/shop-1.0.BUILD-SNAPSHOT.jar
+  path: target/shop-1.0-SNAPSHOT.jar
