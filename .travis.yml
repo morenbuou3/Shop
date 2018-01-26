@@ -16,5 +16,3 @@ deploy:
   api: https://api.run.pivotal.io
   organization: morenbuou3
   space: development
-  applications:
-  -name: Shop
