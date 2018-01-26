@@ -6,3 +6,6 @@ applications:
 
   # random route, avoid can not request a route
   random-route: true
+
+  # refer spec buildpack
+  buildpack: java_buildpack
