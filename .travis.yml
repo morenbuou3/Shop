@@ -14,5 +14,5 @@ deploy:
             pkxY4ZnpDB9Tor/QSgFC6U0Hfpvf7r0do8DRX68VKOaQ8aakedR8b1fovaJgQYO+Cbl9ye7FDp7A8KUG/vdsrzt3/KAMVQltkx1
             A="
   api: https://api.run.pivotal.io
-  organization: xaut
+  organization: morenbuou3
   space: staging
