@@ -1,10 +1,12 @@
 language: java
 jdk:
-  - oraclejdk8
+- oraclejdk8
 deploy:
   provider: cloudfoundry
   username: 369558172@qq.com
-  password: Niuhailian1@
   api: https://api.run.pivotal.io
   organization: xaut
   space: staging
+env:
+  global:
+    secure: Eb+nVFfgJffjJKiUA3WgBWAS9jTFE5QByL5JH4r+bKKMIMzNenXkS6TkaVZ4jgkq6kzXhDYnTXdt2nLXjpi9/q1sbvRkBd4MZz4RMWnRx3DYbKk+u5njDagDQIb0V9DV6g8mXeV6fISWuYn3H0HofU+tVumN8twNSxeWtq0RJf4UnuOOydCMNAq/4qYnYr4nisn7jwYnao2id0iiTd8Jj6GDacxZ0PTw8jcqhI6nKofP6HTXMLz/Lr6irIKO6U8A6Jelzg1BO1FM0uOsLRg/M6t1cAKdVghiCRECzSTlasoMkG1X66YLvv3iJ4yypUXn8pnmejDZOpgfIFeAIxAIUOiUh+KkK5nZqzxGICVlNyWUHnartfpDUNF1lKH4vPVWlyD8pCX1+aJIuuTPe6DS2D5D103mbnX76V2ODvz0uSz2YW8+81klKJ4brg0X+GU1QwaCLI9mOj4Dc/oes1MtBH6EehzesdEbmTmm25fmAACy8WrV80guiiKrjQmPof+Ailteca8o3W95M4l9QYOaPbtiJ4Z6Tna4/euYJHC3Z7mIuuB9/BhOhUU0KKbet1XmZKryAOyMU2DK5MLqekguHOy0w5sLyb8Kwqm0cMblWSm7uNAUsHyl2MUtq8R+fX+pg/cxcYgBG8FcZIb9CE/DRMHtOE6TOz7pSDcPASSSPII=
