@@ -16,7 +16,4 @@ deploy:
   api: https://api.run.pivotal.io
   organization: morenbuou3
   space: development
-  app: shop
-  on:
-    repo: morenbuou3/Shop
-    branch: master
+  manifest: manifest.yml
