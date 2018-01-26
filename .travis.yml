@@ -4,9 +4,14 @@ jdk:
 deploy:
   provider: cloudfoundry
   username: 369558172@qq.com
+  password: secure: "ey9l5jrvsqy2nPT1BuMq/EKqsCbyfRq2YKoj2VY25vEozAfj35juxQ0N3OgQNL1751VfJ9FdNYTgNA8qPKRMlEXD
+            +eGeFUcaEwcG2pMkJt6iu4YQAm/ivbERkC+5uQWvyy08L6YkRgbeVZCD7iY5MWV6KDpo1bKL3MLn7DNYqgL5d6lF0/xrn68sswA
+            y06+6o1ZJsqkCaSpdz3xx2PLD9qj8ymSe+gYHY5ZDZ2OtZSOrKZEBLu6k/+smcE8ns1ejMkgeP+zF8S0Xc254f7qnmL6SnIK/sM
+            tfKwrLRsqdmUORMZb70aFR5RdGgKKOQ1NlRppol33tVnE/cdC6QLPoVImJteNKH3MFL4IGRQVkduo3kyW+30Pu44W+qsciI6jqS
+            muwDxgSAqiLY7ydxSZNkgUOJBdpNsCO6lyFNe6aP8y2xJ/2xwYiWLrdobA+uPw0UL3fL6rOpbm8gqx4nYcUMZhb4MRvmqdNdE3a
+            SVEoc9vj6Ly8te/BgCyLJlLkvISXsMWJj9/YiUeh3UBukxguHG03jEJKWutYnBfFUWLhI5yvhMVnait0d8GC8OBB1aHUFj5bcge
+            pkxY4ZnpDB9Tor/QSgFC6U0Hfpvf7r0do8DRX68VKOaQ8aakedR8b1fovaJgQYO+Cbl9ye7FDp7A8KUG/vdsrzt3/KAMVQltkx1
+            A="
   api: https://api.run.pivotal.io
   organization: xaut
   space: staging
-env:
-  global:
-    secure: Eb+nVFfgJffjJKiUA3WgBWAS9jTFE5QByL5JH4r+bKKMIMzNenXkS6TkaVZ4jgkq6kzXhDYnTXdt2nLXjpi9/q1sbvRkBd4MZz4RMWnRx3DYbKk+u5njDagDQIb0V9DV6g8mXeV6fISWuYn3H0HofU+tVumN8twNSxeWtq0RJf4UnuOOydCMNAq/4qYnYr4nisn7jwYnao2id0iiTd8Jj6GDacxZ0PTw8jcqhI6nKofP6HTXMLz/Lr6irIKO6U8A6Jelzg1BO1FM0uOsLRg/M6t1cAKdVghiCRECzSTlasoMkG1X66YLvv3iJ4yypUXn8pnmejDZOpgfIFeAIxAIUOiUh+KkK5nZqzxGICVlNyWUHnartfpDUNF1lKH4vPVWlyD8pCX1+aJIuuTPe6DS2D5D103mbnX76V2ODvz0uSz2YW8+81klKJ4brg0X+GU1QwaCLI9mOj4Dc/oes1MtBH6EehzesdEbmTmm25fmAACy8WrV80guiiKrjQmPof+Ailteca8o3W95M4l9QYOaPbtiJ4Z6Tna4/euYJHC3Z7mIuuB9/BhOhUU0KKbet1XmZKryAOyMU2DK5MLqekguHOy0w5sLyb8Kwqm0cMblWSm7uNAUsHyl2MUtq8R+fX+pg/cxcYgBG8FcZIb9CE/DRMHtOE6TOz7pSDcPASSSPII=
