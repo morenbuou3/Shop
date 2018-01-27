@@ -12,3 +12,6 @@ applications:
 
   # path
   path: target/shop-1.0-SNAPSHOT.jar
+
+  services:
+    - mysql
