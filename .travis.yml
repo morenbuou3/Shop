@@ -11,3 +11,7 @@ deploy:
   space: development
   on:
     repo: morenbuou3/Shop
+branches:
+  only:
+  - master
+
