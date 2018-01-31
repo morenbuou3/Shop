@@ -5,4 +5,4 @@ CREATE TABLE IF NOT EXISTS `product`(
     `product_price` DECIMAL(9,2) NOT NULL,
     `product_discount` VARCHAR(40),
     PRIMARY KEY (`product_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
