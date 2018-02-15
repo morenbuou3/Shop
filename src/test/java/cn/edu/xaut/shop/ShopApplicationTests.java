@@ -35,6 +35,14 @@ public class ShopApplicationTests {
 
     @Test
     public void testGetTotal3() {
+        String[] items = new String[1];
+        items[0] = ("ITEM000003");
+        double result = shopService.getTotal(items);
+        assertThat(result, is(15.00));
+    }
+
+    @Test
+    public void testGetTotal4() {
         String[] items = new String[2];
         items[0] = ("ITEM000000");
         items[1] = ("ITEM000003-2");
@@ -97,9 +105,9 @@ public class ShopApplicationTests {
     @Test
     public void testGetDiscount6() {
         String[] items = new String[2];
-        items[0] = ("ITEM000002-4");
-        items[1] = ("ITEM000002-4");
+        items[0] = ("ITEM000002");
+        items[1] = ("ITEM000002");
         double result = shopService.getDiscount(items);
-        assertThat(result, is(44.00));
+        assertThat(result, is(11.00));
     }
 }

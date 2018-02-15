@@ -23,12 +23,8 @@ public class ShopServiceImpl implements ShopService {
         double total = 0;
         for (String item : items) {
             product = getProduct(item);
-            if(product.getWeigh() == 1) {
-                int index = item.indexOf('-');
-                total += product.getPrice() * Integer.parseInt(item.substring(index + 1));
-            } else {
-                total += product.getPrice();
-            }
+            Integer number = getWeighNumer(item);
+            total += product.getPrice() * number;
         }
         return total;
     }
@@ -82,16 +78,10 @@ public class ShopServiceImpl implements ShopService {
             product = getProduct(item);
             number = getWeighNumer(item);
             if (map.containsKey(product.getId())) {
-                if (number != null)
-                    map.put(product.getId(), map.get(product.getId()) + number);
-                else
-                    map.put(product.getId(), map.get(product.getId()) + 1);
+                map.put(product.getId(), map.get(product.getId()) + number);
             }
             else {
-                if (number != null)
-                    map.put(product.getId(), number);
-                else
-                    map.put(product.getId(), 1);
+                map.put(product.getId(), number);
             }
         }
         return map;
@@ -112,7 +102,7 @@ public class ShopServiceImpl implements ShopService {
 
     // 查询称重物品重量
     private Integer getWeighNumer(String item) {
-        Integer number = null;
+        Integer number = 1;
         int index = item.indexOf('-');
         if (index > 0) {
             number = Integer.parseInt(item.substring(index + 1));
