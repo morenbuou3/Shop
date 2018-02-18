@@ -14,4 +14,3 @@ deploy:
 branches:
   only:
   - master
-
