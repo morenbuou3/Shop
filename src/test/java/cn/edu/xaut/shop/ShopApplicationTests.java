@@ -51,6 +51,17 @@ public class ShopApplicationTests {
     }
 
     @Test
+    public void testGetTotal5() {
+        String[] items = new String[4];
+        items[0] = ("ITEM000000");
+        items[1] = ("ITEM000000");
+        items[2] = ("ITEM000000");
+        items[3] = ("ITEM000003-2");
+        double result = shopService.getTotal(items);
+        assertThat(result, is(39.00));
+    }
+
+    @Test
     public void testGetDiscount1() {
         String[] items = new String[2];
         items[0] = ("ITEM000000");
